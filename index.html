@@ -2,54 +2,13 @@
 <html lang="en">
 <head> 
 	<title>Home - Hector Puch</title> 
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 	<!-- Encabezado -->
 	<header>
 		<h1>Hector Puch</h1>
 		<p>Cybersecurity</p>
-		<style>
-		body {
-			background-color: #000000;
-		}
-		
-		h1 {
-			color: #ffffff;
-			text-align: center;
-			font-family: sans-serif;
-		}
-		
-		header{
-			display:flex;
-			flex-direction: column-reverse;
-		}
-		
-		header nav ul {
-			display: flex;
-			justify-content: space-evenly;
-			list-style: none;
-			padding: 0;
-			margin: 0;
-			font-family: sans-serif;
-		}
-		
-		a {
-			color: white;
-			text-decoration: none;
-		}
-		
-		p {
-			color: #ffffff;
-			font-family: sans-serif;
-			text-align: justify;
-		}
-		
-		h2 {
-			color: #ffffff;
-			font-family: sans-serif;
-		}
-		
-		</style>
 		<nav>
 			<ul>
 				<li><a href="index.html">Home</a></li>
@@ -75,6 +34,9 @@
 			<h2>Newsletter</h2>
 			<p>Subscribe to discover my latest projects in cybersecurity!</p>
 			<form>
+				<p><label for="field-email">Email:</label><input type="email" name="email" id="field-email" placeholder="Enter your email" required></p>
+				<p><input type="checkbox" name="send" id="field-send" required /><label for ="field-send">I accept the <a href="#">terms and conditions</label></p>
+				<p><label for ="field-submit"></label><input type="submit" name="submit" id="field-submit" /></p>
 			</form>
 		</section>
 	</main>
