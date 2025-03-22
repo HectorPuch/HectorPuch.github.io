@@ -25,9 +25,9 @@
 #email-field {
 	width: 300px;
 	text-align: center;
-    padding: 10px;
+	padding: 10px;
 	margin-top: 5px;
-    border-radius: 6px;
+	border-radius: 6px;
 	border: 2px solid #93999c;
 	font-size: 16px;
 }
@@ -38,8 +38,8 @@
 
 #submit-field {
 	background-color: #ff6600;
-    color: white;
-    padding: 10px 15px;
+	color: white;
+	padding: 10px 15px;
 	margin-top: 10px;
 	border-radius: 6px;
 	border: none;
