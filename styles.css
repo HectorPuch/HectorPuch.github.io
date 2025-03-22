@@ -96,6 +96,7 @@ main p {
 }
 
 footer {
+	background-color: #212023; 
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
