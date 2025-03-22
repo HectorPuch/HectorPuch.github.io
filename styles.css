@@ -1,8 +1,9 @@
 body {
-	background-color: #000000;
+	background-color: #111111;
 	color: #ffffff;
-	font-family: sans-serif;
+	font-family: Arial, sans-serif;
 	margin: 0;
+	padding: 0;
 }
 
 body a {
@@ -31,10 +32,67 @@ header nav ul a {
 
 header nav ul a:hover {
 	color: #ffffff;
+	text-decoration: underline;
 }
 
 main p {
 	text-align: justify;
+}
+
+#newsletter-section {
+	background-color: #212023;
+	padding: 40px;
+	border-radius: 12px;
+	max-width: 600px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+#newsletter-section h2 {
+	color: #ff6600;
+	font-size: 24px;
+}
+
+#newsletter-section p {
+	font-size: 16px;
+	color: #93999c;
+}
+
+#newsletter-section form {
+	margin-top: 20px;
+}
+
+#email-field {
+	width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+#send-field {
+	margin-right: 5px;
+}
+
+#submit-field {
+	background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#submit-field:hover {
+	background-color: #e55a00;
+}
+
+#newsletter-section a {
+	color: #ff6600;
+    text-decoration: none;
 }
 
 footer {
