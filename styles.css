@@ -33,6 +33,7 @@ header nav ul a {
 header nav ul a:hover {
 	color: #ffffff;
 	text-decoration: underline;
+	text-decoration-color: #ff6500;
 }
 
 main p {
