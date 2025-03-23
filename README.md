@@ -1,6 +1,6 @@
 # Formularios
 
-Todo formulario debe ir dentro de una etiqueta **<form>**. Si un botón no está dentro de un formulario, no tiene contexto. Un **<form>** es una etiqueta de caja o elemento en bloque.
+Todo formulario debe ir dentro de una etiqueta `**<form>**`. Si un botón no está dentro de un formulario, no tiene contexto. Un `**<form>**` es una etiqueta de caja o elemento en bloque.
 
 ## Ejemplo de formulario 1
 
@@ -14,7 +14,7 @@ Todo formulario debe ir dentro de una etiqueta **<form>**. Si un botón no está
 
 ## Explicación del formulario (parte 1)
 
-Los **<input>** son elementos en línea y deben ir dentro de elementos en bloque semántico. Las etiquetas **<input>** son unitarias y necesitan al menos dos campos. Si no ponemos nada, por defecto, utiliza **type="text"**. Hay otra propiedad necesaria parae poder trabajar que es el campo **name="nombre"**. Mientras que **type="text"** indica el tipo de campo, **name="edad"** es la propiedad del campo. Hay una etiqueta específica para poner la información denominada **placeholder**. El **value="18"** es el valor que queremos que aparezca por defecto y podemos modificarlo y leerlo.
+Los `**<input>**` son elementos en línea y deben ir dentro de elementos en bloque semántico. Las etiquetas `**<input>**` son unitarias y necesitan al menos dos campos. Si no ponemos nada, por defecto, utiliza `**type="text"**`. Hay otra propiedad necesaria parae poder trabajar que es el campo `**name="nombre"**`. Mientras que `**type="text"**` indica el tipo de campo, `**name="edad"**` es la propiedad del campo. Hay una etiqueta específica para poner la información denominada `**placeholder**`. El `**value="18"**` es el valor que queremos que aparezca por defecto y podemos modificarlo y leerlo.
 
 ## Ejemplo de formulario 2
 
@@ -41,4 +41,4 @@ Los **<input>** son elementos en línea y deben ir dentro de elementos en bloque
 
 ## Explicación del formulario (parte 2)
 
-Todo elemento dentro de una página puede tener un **id**. Estos, pueden ser utilizados por CSS para cambiar un elemento único pero también en HTML pueden interactuar con otros elementos HTML mediante su **id**. Los **id** se pueden poner con guión. Los **<label>** permiten que los lectores de pantalla identifiquen y anuncien correctamente el propósito de cada campo. También, ayuda a que el código HTML sea más claro y organizado. El atributo **for** en un **<label>** debe coincidir con el **id** del campo del formulario al que hace referencia. Esto crea una asociación entre la etiqueta y el campo de entrada, lo que mejora la accesibilidad y la usabilidad. 
+Todo elemento dentro de una página puede tener un **id**. Estos, pueden ser utilizados por CSS para cambiar un elemento único pero también en HTML pueden interactuar con otros elementos HTML mediante su **id**. Los **id** se pueden poner con guión. Los `**<label>**` permiten que los lectores de pantalla identifiquen y anuncien correctamente el propósito de cada campo. También, ayuda a que el código HTML sea más claro y organizado. El atributo **for** en un `**<label>**` debe coincidir con el **id** del campo del formulario al que hace referencia. Esto crea una asociación entre la etiqueta y el campo de entrada, lo que mejora la accesibilidad y la usabilidad. 
