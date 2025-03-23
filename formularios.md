@@ -45,6 +45,6 @@ Todo elemento dentro de una página puede tener un **id**. Estos, pueden ser uti
 
 ## Etiqueta interesante de MD
 
-Las reglas horizontales nos permiten separar secciones de contenido de una manera visual. En una línea en blanco incluiremos tres guiones seguidos `---`.
+Las reglas horizontales o *horizontal rule* nos permiten separar secciones de contenido de una manera visual. En una línea en blanco incluiremos tres guiones seguidos `---`.
 
 ---
