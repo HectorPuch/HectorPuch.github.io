@@ -4,11 +4,13 @@ Todo formulario debe ir dentro de una etiqueta **<form>**. Si un botón no está
 
 ## Ejemplo de formulario 1
 
+```html
 <form>
 <p><input type="text" name="nombre" /></p>
 <p><input type="number" name="edad" value="18" min="1" max="120" /></p>
 <p><input type="submit" /></p>
 </form>
+```
 
 ## Explicación del formulario (parte 1)
 
@@ -16,13 +18,16 @@ Los **<input>** son elementos en línea y deben ir dentro de elementos en bloque
 
 ## Ejemplo de formulario 2
 
+```html
 <form>
 <p><input type="password" name="pass" /></p>
 <p><input type="submit" /></p>
 </form>
+```
 
 ## Ejemplo de formulario 3
 
+```html
 <form>
 <p><label for="campo-nombre">Nombre</label><input type="text" name="nombre" id="campo-nombre" /></p>
 <p><label>Contraseña</label<input type="password" name="pass" id="campo-contraseña" /></p>
@@ -32,6 +37,7 @@ Los **<input>** son elementos en línea y deben ir dentro de elementos en bloque
 <p><input type="checkbox" name="subscribe" id="subscribe" /><label for="subscribe">Suscríbete para recibir un email semanal sobre Ciberseguridad</label></p>
 <p><input type="submit" /></p>
 </form>
+```
 
 ## Explicación del formulario (parte 2)
 
