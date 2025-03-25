@@ -24,17 +24,13 @@
 		let my_num = my_num_input.value;
 		
 		let result = document.getElementById("result");
-		
-		let minimum_number = 1;
-		
-		let maximum_number = 100;
 			
 		
 		if (isNaN(my_num) || my_num == "") {
 			console.log("Error 1: Your number it's empty or is not a number.");
 			return;
 		}
-		else if (my_num < minimum_number || my_num > maximum_number) {
+		else if (my_num < 1 || my_num > 100) {
 			console.log("Error 2: Your number is smaller than 1 or bigger than 100.");
 			return;
 		}
