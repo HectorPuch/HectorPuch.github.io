@@ -6,6 +6,62 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<script>
+	
+	let counter = 1;
+	
+	let number = Math.floor(Math.random()*100)+1;
+	
+	function compare_number ()
+	{
+		let button_input = document.getElementById("field-button");
+			
+		button_input.value = "Guess! ("+counter+")";
+		
+		let my_num_input = document.getElementById("field-number");
+		
+		let my_num = my_num_input.value;
+		
+		let result = document.getElementById("result");
+		
+		let minimum_number = 1;
+		
+		let maximum_number = 100;
+			
+		
+		if (isNaN(my_num) || my_num == "") {
+			console.log("Error 1: Your number it's empty or is not a number.");
+			return;
+		}
+		else if (my_num < minimum_number || my_num > maximum_number) {
+			console.log("Error 2: Your number is smaller than 1 or bigger than 100.");
+			return;
+		}
+		else {
+			counter++;
+			
+			if (my_num > number) {
+				resultado.innerHTML = "<em class=\"error\">The number to be guessed is <strong>less</strong> than "+my_num+".</em>";
+				//result.style.color = "#ff0000";
+			}
+			else if (my_num < number) {
+				result.innerHTML = "<em class=\"error\">The number to be guessed is <strong>greater</strong> than "+my_num+".</em>";
+				//result.style.color = "#ff0000";
+			}
+			else {
+				result.innerHTML = "<strong class=\"you-win\">You got it right, it was "+my_num+"!</strong>";
+				//result.style.color = "#00ff00";
+			}
+			
+			my_num_input.value = "";
+			
+			my_num_input.focus();
+		}
+		
+	}
+
+	
+	</script>
 </head>
 <body>
 	<!-- Encabezado -->
@@ -23,9 +79,14 @@
 	</header>
 	<!-- Contenido principal -->
 	<main>
+		<h2 class="game-title">Guess the number</h2>
+		<p>Guess the generated number. It is a number between the <strong>1</strong> and <strong>100</strong>.</p>
+
+		<p id="result">Try your luck!</p>
+
 		<form>
 		<p><label for="field-number">Your number:</label><input type="number" name="number" id="field-number" /></p>
-		<p><label for ="field-submit"></label><input type="submit" name="submit" id="field-submit" /></p>
+		<p><label for ="field-button"></label><input type="button" name="button" id="field-button" value="Guess!" onClick="compare_number();" /></p>
 		</form>
 	</main>
 	<!-- Pie de página -->
