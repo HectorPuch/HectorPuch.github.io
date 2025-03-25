@@ -10,7 +10,7 @@
 	
 	let counter = 1;
 	
-	let number = Math.floor(Math.random()*100)+1;
+	let random_number = Math.floor(Math.random()*100)+1;
 	
 	function compare_number ()
 	{
@@ -40,11 +40,11 @@
 		else {
 			counter++;
 			
-			if (my_num > number) {
+			if (my_num > random_number) {
 				resultado.innerHTML = "<em class=\"error\">The number to be guessed is <strong>less</strong> than "+my_num+".</em>";
 				//result.style.color = "#ff0000";
 			}
-			else if (my_num < number) {
+			else if (my_num < random_number) {
 				result.innerHTML = "<em class=\"error\">The number to be guessed is <strong>greater</strong> than "+my_num+".</em>";
 				//result.style.color = "#ff0000";
 			}
