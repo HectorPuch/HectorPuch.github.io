@@ -23,7 +23,7 @@
 		
 		let my_num = my_num_input.value;
 		
-		let result = document.getElementById("result");
+		let result = document.getElementById("number-result");
 			
 		
 		if (isNaN(my_num) || my_num == "") {
@@ -38,7 +38,7 @@
 			counter++;
 			
 			if (my_num > random_number) {
-				resultado.innerHTML = "<em class=\"error\">The number to be guessed is <strong>less</strong> than "+my_num+".</em>";
+				result.innerHTML = "<em class=\"error\">The number to be guessed is <strong>less</strong> than "+my_num+".</em>";
 				//result.style.color = "#ff0000";
 			}
 			else if (my_num < random_number) {
@@ -79,7 +79,7 @@
 		<h2 class="game-title">Guess the number</h2>
 		<p>Guess the generated number. It is a number between the <strong>1</strong> and <strong>100</strong>.</p>
 
-		<p id="result">Try your luck!</p>
+		<p id="number-result">Try your luck!</p>
 
 		<form>
 		<p><label for="field-number">Your number:</label><input type="number" name="number" id="field-number" /></p>
