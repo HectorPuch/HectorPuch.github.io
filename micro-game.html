@@ -7,58 +7,6 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-	<script>
-	
-	let counter = 1;
-	
-	let random_number = Math.floor(Math.random()*100)+1;
-	
-	function compare_number ()
-	{
-		let button_input = document.getElementById("field-button");
-			
-		button_input.value = "Guess! ("+counter+")";
-		
-		let my_num_input = document.getElementById("field-number");
-		
-		let my_num = my_num_input.value;
-		
-		let result = document.getElementById("number-result");
-			
-		
-		if (isNaN(my_num) || my_num == "") {
-			console.log("Error 1: Your number it's empty or is not a number.");
-			return;
-		}
-		else if (my_num < 1 || my_num > 100) {
-			console.log("Error 2: Your number is smaller than 1 or bigger than 100.");
-			return;
-		}
-		else {
-			counter++;
-			
-			if (my_num > random_number) {
-				result.innerHTML = "<em class=\"error\">The number to be guessed is <strong>less</strong> than "+my_num+".</em>";
-				//result.style.color = "#ff0000";
-			}
-			else if (my_num < random_number) {
-				result.innerHTML = "<em class=\"error\">The number to be guessed is <strong>greater</strong> than "+my_num+".</em>";
-				//result.style.color = "#ff0000";
-			}
-			else {
-				result.innerHTML = "<strong class=\"you-win\">You got it right, it was "+my_num+"!</strong>";
-				//result.style.color = "#00ff00";
-			}
-			
-			my_num_input.value = "";
-			
-			my_num_input.focus();
-		}
-		
-	}
-
-	
-	</script>
 </head>
 <body>
 	<!-- Encabezado -->
@@ -99,5 +47,6 @@
 		</nav>
 		<p>&copy; 2025 Hector Puch</p>
 	</footer>
+	<script src="main.js"></script>
 </body>
 </html>
