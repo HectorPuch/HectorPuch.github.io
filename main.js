@@ -31,6 +31,7 @@ function compare_number ()
 			// Si el contador es mayor que el número máximo de intentos
 			if (counter > maxAttempts) {
 				button_input.disabled = true; // Desactivamos el botón
+				console.log("Error 3: You've reached the maximum number of attempts.");
 				my_num_input.classList.remove("input-error"); // Quitamos la clase input-error 
 				result.innerHTML = "<strong class='error'>Game over! You've reached the maximum number of attempts.</strong>"; // Mostramos el mensaje de que se han terminado los intentos
 				return;
