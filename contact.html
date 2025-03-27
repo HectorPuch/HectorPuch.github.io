@@ -3,6 +3,7 @@
 <head> 
 	<title>Contact - Hector Puch</title> 
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="contact.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -24,11 +25,11 @@
 	<!-- Contenido principal -->
 	<main>
 		<form>
-			<p><label for ="name-field">Name:</label><input type="text" name="name" id="name-field" placeholder="Enter your full name" required /></p>
-			<p><label for="email-field">Email:</label><input type="email" name="email" id="email-field" placeholder="Enter your email" required></p>
-			<p><label for="message-field">Message:</label><textarea name="message" id="message-field" placeholder="Write your message here..." rows="4" required></textarea></p>
-			<p><input type="checkbox" name="send" id="send-field" required /><label for ="send-field">I accept the <a href="#">terms and conditions</a></label></p>
-			<p><label for ="submit-field"></label><input type="submit" name="submit" id="submit-field" /></p>
+			<p><label for ="name-field">Name:</label><input type="text" name="name" id="name-field" placeholder="Enter your full name" /></p>
+			<p><label for="email-field">Email:</label><input type="email" name="email" id="email-field" placeholder="Enter your email" /></p>
+			<p><label for="message-field">Message:</label><textarea name="message" id="message-field" placeholder="Write your message here..." rows="4"></textarea></p>
+			<p><input type="checkbox" name="checkbox" id="checkbox-field" required /><label for ="checkbox-field">I accept the <a href="terms-and-conditions.html">terms and conditions</a></label></p>
+			<p><label for ="submit-field"></label><input type="submit" name="submit" id="submit-field" value="Submit" onClick="empty_field_checker();" /></p>
 		</form>
 	</main>
 	<!-- Pie de página -->
@@ -44,5 +45,6 @@
 		</nav>
 		<p>&copy; 2025 Hector Puch</p>
 	</footer>
+	<script src="contact.js"></script>
 </body>
 </html>
