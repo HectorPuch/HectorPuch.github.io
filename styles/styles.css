@@ -1,87 +1,120 @@
 body {
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
 	background-color: #111111;
-	color: #ffffff;
-	font-family: 'Montserrat',sans-serif;
 }
 
-body a {
-	text-decoration: none;
+header h1 {
+	color: #ffffff;
 }
 
 header p {
 	color: #ff6500;
+	font-size: 22px;
 }
 
-nav ul li {
+header nav ul {
 	list-style-type: none;
 }
 
-header nav ul a {
+header nav ul li a {
+	text-decoration: none;
 	color: #93999c;
 }
 
-header nav ul a:hover {
+header nav ul li a:hover {
 	color: #ffffff;
 	text-decoration: underline;
-	text-underline-offset: 8px;
 	text-decoration-color: #ff6500;
+	text-underline-offset: 8px;
 }
 
-main h2 {
-	text-align: justify;
+#about-section {
+	
 }
 
-main p {
-	text-align: justify;
+#about-section h2 {
+	color: #ff6500;
 }
 
-.self-portrait{
+#about-section p {
+	color: #ffffff;
+}
+
+.self-portrait {
 	height: 256px;
 	width: auto;
 	border-radius: 16px;
 }
 
-.github-mark{
+.github-mark {
 	height: 64px;
 	width: auto;
 }
 
-.linkedin-mark{
+.linkedin-mark {
 	height: 64px;
 	width: auto;
+}
+
+#newsletter-section{
+	background-color: #212023;
+}
+
+#newsletter-section h2 {
+	color: #ff6500;
+}
+
+#newsletter-section p {
+	color: #ffffff;
+}
+
+#email-field {
+	
+}
+
+#checkbox-field {
+	
+}
+
+#newsletter-section a {
+	text-decoration: none;
+	color: #ff6500;
+}
+
+#submit-field {
+	background-color: #ff6600;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+}
+
+#submit-field:hover {
+	background-color: #ffffff;
+	color: #ff6500;
 }
 
 footer {
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content:space-between;
-	align-items: center;
-	padding: 16px 0px 16px 0px;
 	background-color: #212023;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	right: 0;
-	left: 0;
 }
 
 footer nav ul {
-	display: flex;
-	justify-content: right;
+	list-style-type: none;
 }
 
-footer nav ul li {
-	margin-right: 64px;
-}
-
-footer nav ul a {
+footer nav ul li a {
+	text-decoration: none;
 	color: #93999c;
 }
 
-footer nav ul a:hover {
+footer nav ul li a:hover {
 	color: #ff6500;
-    	}
+}
 
 footer p {
-	margin-left: 64px;
+	color: #93999c;
 }
+
