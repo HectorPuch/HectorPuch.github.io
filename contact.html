@@ -2,14 +2,14 @@
 <html lang="en">
 <head> 
 	<title>Contact - Hector Puch</title> 
-	<link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="styles-contact.css">
+	<link rel="stylesheet" href="styles/styles.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="scripts/contact.js"></script>
 </head>
 <body>
-	<!-- Encabezado -->
+	<!-- Header -->
 	<header>
 	<h1>Contact</h1>
 		<nav>
@@ -22,17 +22,21 @@
 			</ul>
 		</nav>
 	</header>
-	<!-- Contenido principal -->
+	<!-- Main content  -->
 	<main>
-		<form>
-			<p><label for ="name-field">Name:</label><input type="text" name="name" id="name-field" placeholder="Enter your full name" /></p>
-			<p><label for="email-field">Email:</label><input type="email" name="email" id="email-field" placeholder="Enter your email" /></p>
-			<p><label for="message-field">Message:</label><textarea name="message" id="message-field" placeholder="Write your message here..." rows="4"></textarea></p>
-			<p><input type="checkbox" name="checkbox" id="checkbox-field" required /><label for ="checkbox-field">I accept the <a href="terms-and-conditions.html">terms and conditions</a></label></p>
-			<p><label for ="submit-field"></label><input type="submit" name="submit" id="submit-field" value="Submit" onClick="empty_field_checker();" /></p>
-		</form>
+		<section id="contact-form">
+			<h2>Get in Touch!</h2>
+			<form>
+				<p><label for="name-field">Name:</label><input type="text" name="name" id="name-field" placeholder="Enter your full name" /></p>
+				<p><label for="birthday-field">Date of Birth:</label><input type="date" name="birthday" id="birthday-field" /></p>
+				<p><label for="color-field">Favorite color:</label><input type="color" name="color" id="color-field" /></p>				
+				<p><label for="message-field">Message:</label><textarea name="message" id="message-field" placeholder="Write your message here..."></textarea></p>
+				<p><input type="checkbox" name="checkbox" id="checkbox-field" /><label for="checkbox-field" />I accept the <a href="terms-and-conditions.html">terms and conditions</a></label></p>
+				<p><label for="submit-field"></label><input type="submit" name="submit" id="submit-field" value="Submit" /></p>
+			</form>
+		</section>
 	</main>
-	<!-- Pie de página -->
+	<!-- Footer -->
 	<footer>
 		<nav>
 			<ul>
@@ -45,6 +49,5 @@
 		</nav>
 		<p>&copy; 2025 Hector Puch</p>
 	</footer>
-	<script src="contact.js"></script>
 </body>
 </html>
