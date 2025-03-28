@@ -2,20 +2,10 @@ body {
 	background-color: #111111;
 	color: #ffffff;
 	font-family: 'Montserrat',sans-serif;
-	margin: 0;
-	padding: 0;
 }
 
 body a {
 	text-decoration: none;
-}
-
-header {
-	
-}
-
-h1 {
-
 }
 
 header p {
@@ -37,28 +27,41 @@ header nav ul a:hover {
 	text-decoration-color: #ff6500;
 }
 
+main h2 {
+	text-align: justify;
+}
+
 main p {
 	text-align: justify;
 }
 
+.self-portrait{
+	height: 256px;
+	width: auto;
+}
+
+.github-mark{
+	height: 64px;
+	width: auto;
+}
+
+.linkedin-mark{
+	height: 64px;
+	width: auto;
+}
+
 footer {
-	background-color: #212023;
 	display: flex;
 	flex-direction: row-reverse;
-	justify-content: space-between;
-	padding: 16px 0px 16px 0px;
+	justify-content:space-between;
 	align-items: center;
+	padding: 16px 0px 16px 0px;
+	background-color: #212023;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	right: 0;
 	left: 0;
-
-    
-}
-
-footer p {
-	margin-left: 50px;
 }
 
 footer nav ul {
@@ -67,7 +70,7 @@ footer nav ul {
 }
 
 footer nav ul li {
-	margin-right: 50px;
+	margin-right: 64px;
 }
 
 footer nav ul a {
@@ -77,3 +80,7 @@ footer nav ul a {
 footer nav ul a:hover {
 	color: #ff6500;
     	}
+
+footer p {
+	margin-left: 64px;
+}
