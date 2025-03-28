@@ -38,6 +38,7 @@ main p {
 .self-portrait{
 	height: 256px;
 	width: auto;
+	border-radius: 16px;
 }
 
 .github-mark{
