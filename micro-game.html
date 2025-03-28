@@ -2,14 +2,15 @@
 <html lang="en">
 <head> 
 	<title>Micro-Game - Hector Puch</title> 
-	<link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="styles-micro-game.css">
+	<link rel="stylesheet" href="styles/styles.css" />
+	<link rel="stylesheet" href="styles/styles-micro-game.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="scripts/micro-game.js"></script>
 </head>
 <body>
-	<!-- Encabezado -->
+	<!-- Header -->
 	<header>
 		<h1>Micro-Game</h1>
 		<nav>
@@ -22,19 +23,19 @@
 			</ul>
 		</nav>
 	</header>
-	<!-- Contenido principal -->
+	<!-- Main content -->
 	<main>
-		<h2 class="game-title">Guess the number</h2>
-		<p>Guess the generated number. It is a number between the <strong>1</strong> and <strong>100</strong>.</p>
-
-		<p id="number-result">Try your luck!</p>
-
-		<form>
-		<p><label for="field-number">Your number:</label><input type="number" name="number" id="field-number" /></p>
-		<p><label for ="field-button"></label><input type="button" name="button" id="field-button" value="Guess!" onClick="compare_number();" /></p>
-		</form>
+		<section id ="game-section">
+			<h2 class="game-title">Guess the number</h2>
+			<p>Guess the generated number. It is a number between the <strong>1</strong> and <strong>100</strong>.</p>
+			<p id="number-result">Try your luck!</p>
+			<form>
+				<p><label for="number-field">Your number:</label><input type="number" name="number" id="number-field" /></p>
+				<p><label for ="button-field"></label><input type="button" name="button" id="button-field" value="Guess!" onClick="compare_number();" /></p>
+			</form>
+		</section>
 	</main>
-	<!-- Pie de página -->
+	<!-- Footer -->
 	<footer>
 		<nav>
 			<ul>
@@ -47,6 +48,5 @@
 		</nav>
 		<p>&copy; 2025 Hector Puch</p>
 	</footer>
-	<script src="micro-game.js"></script>
 </body>
 </html>
