@@ -39,6 +39,11 @@ main p {
 
 main ul {
 	color: #ffffff;
+	list-style-type: none;
+}
+
+main ul li ul {
+	color: #93999c;
 }
 
 main h3 {
