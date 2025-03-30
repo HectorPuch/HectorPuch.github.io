@@ -33,6 +33,11 @@ main h2 {
 	color: #ff6500;
 }
 
+#about-section a {
+	color: #ff6500;
+	text-decoration: none;
+}
+
 main p {
 	color: #ffffff;
 }
