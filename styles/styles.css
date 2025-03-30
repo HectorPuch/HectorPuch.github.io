@@ -96,6 +96,11 @@ main h3 {
 	color: #ff6500;
 }
 
+#checkbox-field {
+	text-decoration: none;
+	color: #ff6500;
+}
+
 #submit-field {
 	background-color: #ff6600;
 	color: #ffffff;
