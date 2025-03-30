@@ -29,16 +29,24 @@ header nav ul li a:hover {
 	text-underline-offset: 8px;
 }
 
+h2 {
+	color: #ff6500;
+}
+
+p {
+	color: #ffffff;
+}
+
 #about-section {
 	
 }
 
 #about-section h2 {
-	color: #ff6500;
+	
 }
 
 #about-section p {
-	color: #ffffff;
+	
 }
 
 .self-portrait {
