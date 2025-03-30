@@ -18,3 +18,18 @@ h2.game-title {
 .input-success {
 	border: 1px solid #00ff00;
 }
+
+#button-field {
+	background-color: #ff6600;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+}
+
+#button-field:hover {
+	background-color: #ffffff;
+	color: #ff6500;
+}
