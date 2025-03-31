@@ -100,6 +100,11 @@ main h3 {
 	color: #ff6500;
 }
 
+#contact-form {
+	background-color: #212023;
+	text-align: center;
+}
+
 #contact-form a {
 	text-decoration: none;
 	color: #ff6500;
