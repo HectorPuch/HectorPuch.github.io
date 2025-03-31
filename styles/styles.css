@@ -121,11 +121,18 @@ main h3 {
 }
 
 footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: 1px solid grey;
 	background-color: #212023;
 }
 
 footer nav ul {
+	display: flex;
+	justify-content: space-evenly;
 	list-style-type: none;
+	padding-left: 0px;
+	border: 1px solid grey;
 }
 
 footer nav ul li a {
@@ -138,6 +145,9 @@ footer nav ul li a:hover {
 }
 
 footer p {
+	display: flex;
+	justify-content: center;
 	color: #93999c;
+	border: 1px solid grey;
 }
 
