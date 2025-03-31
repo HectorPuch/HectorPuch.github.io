@@ -4,17 +4,26 @@ body {
 	background-color: #111111;
 }
 
-header h1 {
-	color: #ffffff;
+header {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: 1px solid grey;
 }
 
-header p {
-	color: #ff6500;
-	font-size: 22px;
+header h1 {
+	color: #ffffff;
+	border: 1px solid grey;
+	padding-left: 32px;
 }
 
 header nav ul {
+	display: flex;
+	justify-content: space-evenly;
 	list-style-type: none;
+	padding-left: 0px;
+	margin-top: 32px;
+	margin-bottom: 0px;
+	border: 1px solid grey;
 }
 
 header nav ul li a {
