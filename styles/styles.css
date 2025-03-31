@@ -48,7 +48,6 @@ header nav ul li a:hover {
 
 main h2 {
 	color: #ff6500;
-	margin-left: 32px;
 }
 
 #about-me-section {
@@ -62,8 +61,6 @@ main h2 {
 
 main p {
 	color: #ffffff;
-	margin-right: 32px;
-	margin-left: 32px;
 }
 
 main ul {
