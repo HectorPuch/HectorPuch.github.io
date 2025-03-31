@@ -1,6 +1,6 @@
-h2.game-title {
-	border: 0;
+#game-section {
 	text-align: center;
+	background-color: #212023;
 }
 
 .error {
