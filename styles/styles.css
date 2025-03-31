@@ -42,6 +42,16 @@ main h2 {
 	color: #ff6500;
 }
 
+video {
+    background-color: #212023;
+    border-radius: 16px;
+    padding: 16px;
+	margin: 32px;
+    border: 1px solid #ff6500;
+	height: 300px;
+	width: auto;
+}
+
 #about-section a {
 	color: #ff6500;
 	text-decoration: none;
@@ -152,7 +162,7 @@ footer nav ul li a:hover {
 footer p {
 	display: flex;
 	justify-content: center;
-	color: #ffffff;
+	color: #93999c;
 	border: 1px solid grey;
 }
 
