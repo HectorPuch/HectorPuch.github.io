@@ -4,17 +4,34 @@ body {
 	background-color: #111111;
 }
 
+header {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.left-section {
+	display: grid;
+	grid-template-rows: 48px;
+}
+
 header h1 {
 	color: #ffffff;
+	margin-left: 32px;
 }
 
 header p {
 	color: #ff6500;
 	font-size: 22px;
+	margin-left: 32px;
 }
 
 header nav ul {
+	display: flex;
+	justify-content: space-evenly;
 	list-style-type: none;
+	margin-top: 32px;
+	margin-bottom: 0px;
+	padding-left: 0px;
 }
 
 header nav ul li a {
@@ -31,6 +48,11 @@ header nav ul li a:hover {
 
 main h2 {
 	color: #ff6500;
+	margin-left: 32px;
+}
+
+#about-me-section {
+	
 }
 
 #about-section a {
@@ -40,6 +62,8 @@ main h2 {
 
 main p {
 	color: #ffffff;
+	margin-right: 32px;
+	margin-left: 32px;
 }
 
 main ul {
@@ -52,7 +76,7 @@ main ul li ul {
 }
 
 main h3 {
-	color: #93999c;
+	color: #ffffff;
 }
 
 .self-portrait {
