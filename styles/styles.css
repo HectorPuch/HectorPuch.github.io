@@ -4,34 +4,17 @@ body {
 	background-color: #111111;
 }
 
-header {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-.left-section {
-	display: grid;
-	grid-template-rows: 40px;
-}
-
 header h1 {
 	color: #ffffff;
-	margin-left: 32px;
 }
 
 header p {
 	color: #ff6500;
 	font-size: 22px;
-	margin-left: 32px;
 }
 
 header nav ul {
-	display: flex;
-	justify-content: space-evenly;
 	list-style-type: none;
-	margin-top: 32px;
-	margin-bottom: 0px;
-	padding-left: 0px;
 }
 
 header nav ul li a {
@@ -48,10 +31,6 @@ header nav ul li a:hover {
 
 main h2 {
 	color: #ff6500;
-}
-
-#about-me-section {
-	
 }
 
 #about-section a {
@@ -102,10 +81,6 @@ main h3 {
 
 #newsletter-section p {
 	color: #ffffff;
-}
-
-#email-field {
-	
 }
 
 #newsletter-section a {
