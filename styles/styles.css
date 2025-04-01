@@ -61,19 +61,20 @@ main h2 {
 .text-image-class {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
-	gap: 64px; 
 }
 
 .marks-class {
 	display: flex;
 	gap: 32px;
 	align-items: center;
-	margin-top: -64px;
+	margin-top: -72px;
+	margin-left: 32px;
 }
 
 .self-portrait {
 	height: 256px;
 	width: auto;
+	margin-left: 128px;
 	border-radius: 16px;
 }
 
@@ -92,7 +93,7 @@ main h2 {
 	max-width: 600px;
 	border-radius: 12px;
 	padding: 40px;
-	margin: 50px auto;
+	margin: 64px auto;
 	text-align: center;
 }
 
