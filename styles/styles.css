@@ -4,6 +4,8 @@ body {
 	background-color: #111111;
 }
 
+/* HEADER */
+
 header {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -41,6 +43,8 @@ header nav ul li a:hover {
 	font-weight: bold;
 }
 
+/* MAIN */
+
 main {
 	max-width: 1200px;
 	width: 90%;
@@ -52,40 +56,7 @@ main h2 {
 	color: #ff6500;
 }
 
-video {
-    background-color: #212023;
-    border-radius: 16px;
-    padding: 16px;
-    border: 1px solid #ff6500;
-    height: 300px;
-    width: auto;
-}
-
-#about-section a {
-	color: #ff6500;
-	text-decoration: none;
-}
-
-main p {
-	color: #ffffff;
-	text-align: justify;
-}
-
-main ul {
-	color: #ffffff;
-	list-style-type: none;
-}
-
-main ul li ul {
-	color: #93999c;
-}
-
-main h3 {
-	color: #ffffff;
-	text-decoration: underline;
-	text-underline-offset: 12px;
-	text-decoration-color: #ff6500;
-}
+/* MAIN index.html */
 
 .text-image-class {
 	display: grid;
@@ -182,6 +153,47 @@ main h3 {
 	background-color: #ffffff;
 	color: #ff6500;
 }
+
+/* MAIN cv.html */
+
+#about-section a {
+	color: #ff6500;
+	text-decoration: none;
+}
+
+main p {
+	color: #ffffff;
+	text-align: justify;
+}
+
+main ul {
+	color: #ffffff;
+	list-style-type: none;
+}
+
+main ul li ul {
+	color: #93999c;
+}
+
+main h3 {
+	color: #ffffff;
+	text-decoration: underline;
+	text-underline-offset: 12px;
+	text-decoration-color: #ff6500;
+}
+
+/* MAIN hobbies.html */
+
+video {
+    background-color: #212023;
+    border-radius: 16px;
+    padding: 16px;
+    border: 1px solid #ff6500;
+    height: 300px;
+    width: auto;
+}
+
+/* FOOTER */
 
 footer {
 	display: grid;
