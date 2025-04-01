@@ -193,6 +193,48 @@ video {
     width: auto;
 }
 
+/* MAIN micro-game.html */
+
+#game-section {
+	background-color: #212023;
+	max-width: 600px;
+	border-radius: 12px;
+	padding: 40px;
+	margin: 50px auto;
+}
+
+#button-field {
+	background-color: #ff6600;
+	color: #ffffff;
+	padding: 10px 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#button-field:hover {
+	background-color: #ffffff;
+	color: #ff6500;
+}
+
+/* MAIN contact.html */
+
+#contact-section {
+	background-color: #212023;
+	max-width: 600px;
+	border-radius: 12px;
+	padding: 40px;
+	margin: 50px auto;
+}
+
+#contact-section p {
+	text-align: center;
+}
+
 /* FOOTER */
 
 footer {
