@@ -10,8 +10,13 @@ header {
 }
 
 header h1 {
-	color: #ffffff;
 	padding-left: 32px;
+	color: #ffffff;
+}
+
+header h1 a {
+	text-decoration: none;
+	color: #ffffff;
 }
 
 header nav ul {
@@ -33,6 +38,14 @@ header nav ul li a:hover {
 	text-decoration: underline;
 	text-decoration-color: #ff6500;
 	text-underline-offset: 8px;
+	font-weight: bold;
+}
+
+main {
+	max-width: 1200px;
+	width: 90%;
+	margin: 0 auto;
+	padding: 40px 20px;
 }
 
 main h2 {
@@ -55,6 +68,7 @@ video {
 
 main p {
 	color: #ffffff;
+	text-align: justify;
 }
 
 main ul {
@@ -71,6 +85,17 @@ main h3 {
 	text-decoration: underline;
 	text-underline-offset: 12px;
 	text-decoration-color: #ff6500;
+}
+
+.text-image-class {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 64px; 
+}
+
+.marks-class {
+	display: flex;
+	gap: 64px;
 }
 
 .self-portrait {
@@ -91,6 +116,11 @@ main h3 {
 
 #newsletter-section{
 	background-color: #212023;
+	max-width: 600px;
+	border-radius: 12px;
+	padding: 40px;
+	margin: 50px auto;
+	text-align: center;
 }
 
 #newsletter-section h2 {
@@ -99,6 +129,25 @@ main h3 {
 
 #newsletter-section p {
 	color: #ffffff;
+	text-align: center;
+}
+
+#newsletter-section form {
+	margin-top: 20px;
+}
+
+#email-field {
+	width: 300px;
+	text-align: center;
+	padding: 10px;
+	margin-top: 5px;
+	border-radius: 6px;
+	border: 2px solid #93999c;
+	font-size: 16px;
+}
+
+#checkbox-field {
+	margin-right: 5px;
 }
 
 #newsletter-section a {
@@ -119,10 +168,13 @@ main h3 {
 #submit-field {
 	background-color: #ff6600;
 	color: #ffffff;
-	font-size: 16px;
-	font-weight: bold;
+	padding: 10px 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	border-radius: 6px;
 	border: none;
+	font-size: 16px;
+	font-weight: bold;
 	cursor: pointer;
 }
 
@@ -151,6 +203,7 @@ footer nav ul li a {
 
 footer nav ul li a:hover {
 	color: #ff6500;
+	font-weight: bold;
 }
 
 footer p {
