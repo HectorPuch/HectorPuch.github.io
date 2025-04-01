@@ -177,10 +177,6 @@ main h3 {
     align-items: center;
 }
 
-#music-section h3 {
-	text-decoration: none;
-}
-
 #music-section video {
     width: 400px;
 	height: auto;
