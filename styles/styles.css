@@ -48,7 +48,7 @@ main {
 	max-width: 1200px;
 	width: 90%;
 	margin: 0 auto;
-	padding: 40px 20px;
+	padding: 80px 20px;
 }
 
 main h2 {
@@ -57,42 +57,83 @@ main h2 {
 
 /* MAIN index.html */
 
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.text-content {
+    grid-column: 1;
+}
+
+.image-content {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 .self-portrait {
-	height: 256px;
-	width: auto;
-	border-radius: 16px;
-	transition: box-shadow 0.3s ease;
+    max-height: 280px;
+    width: auto;
+    max-width: 100%;
+    border-radius: 16px;
+    object-fit: contain;
+    transition: box-shadow 0.3s ease; 
 }
 
 .self-portrait:hover {
-	box-shadow: 0px 10px 20px rgb(147 153 156 / 15%);
+    box-shadow: 0px 10px 20px rgb(147 153 156 / 15%); 
 }
 
-.github-mark {
-	height: 64px;
-	width: auto;
-	transition: transform 0.3s ease;
+.social-marks {
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
 }
 
-.github-mark:hover {
-	transform: scale(1.1);
+.github-mark, .linkedin-mark {
+    height: 48px;
+    width: auto;
+    transition: transform 0.3s ease; 
 }
 
-.linkedin-mark {
-	height: 64px;
-	width: auto;
-	transition: transform 0.3s ease;
+.github-mark:hover, .linkedin-mark:hover {
+    transform: scale(1.1);
 }
 
-.linkedin-mark:hover {
-	transform: scale(1.1);
+/* Versión móvil (responsive) */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .image-content {
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .self-portrait {
+        max-height: 240px;
+    }
+    .social-marks {
+        justify-content: center;
+    }
 }
 
 #newsletter-section{
 	background-color: #212023;
 	max-width: 600px;
 	border-radius: 12px;
-	padding: 16px 0px 16px 0px;
+	padding: 16px 0px;
+	margin: 128px auto; 
+}
+
+#newsletter-section form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
 }
 
 #newsletter-section h2 {
@@ -103,13 +144,14 @@ main h2 {
 #newsletter-section p {
 	color: #ffffff;
 	text-align: center;
+	margin: 8px 0;
 }
 
 #email-field {
 	width: 300px;
 	text-align: center;
-	padding: 10px;
-	border-radius: 6px;
+	padding: 8px;
+	border-radius: 8px;
 	border: 2px solid #93999c;
 	font-size: 16px;
 }
@@ -126,10 +168,9 @@ main h2 {
 #submit-field {
 	background-color: #ff6600;
 	color: #ffffff;
-	padding: 10px 15px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border-radius: 6px;
+	padding: 12px 16px;
+	margin-bottom: 16px;
+	border-radius: 8px;
 	border: none;
 	font-size: 16px;
 	font-weight: bold;
