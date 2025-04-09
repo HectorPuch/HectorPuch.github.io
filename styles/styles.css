@@ -8,17 +8,26 @@ body {
 
 header {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 4fr;
+}
+
+#document-title {
+	padding-left: 32px;
+	
+}
+
+header a {
+	display: block;
+	text-decoration: none;
 }
 
 header h1 {
-	padding-left: 32px;
 	color: #ffffff;
 }
 
-header h1 a {
-	text-decoration: none;
-	color: #ffffff;
+header p {
+	color: #ff6500;
+	font-size: 24px;
 }
 
 header nav ul {
