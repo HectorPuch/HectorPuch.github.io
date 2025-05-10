@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         	name_field.style.border = "1px solid red";
     	}
     	else {
-        	name_field.style.border = "1px solid red";
+        	name_field.style.border = "1px solid green";
     	}
 		
 		// Birthday check
@@ -79,19 +79,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
     	}
     	
     	// Color check
-    	if(color_field.value.length != 7) {
+    	if(color_field.value.length != 7 || color_field.value[0] != "#") {
         	send = false;
         	color_field.style.border = "1px solid red";
     	}
-    	else {
-        	if (color_field.value[0] != "#") {
-            	send = false;
-            	color_field.style.border = "1px solid red";
-        	}
-        	else {
+        else {
             	color_field.style.border = "1px solid green";
-        	}
-    	}
+        }
+    	
     	
 		// Message check
     	if(message_field.value.length < 5 || message_field.value.length > 255) {
@@ -102,9 +97,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
         	let tmp = message_field.value.replace(/'/g, "\\'");
        	 
         	message_field.value = tmp;
+
+			message_field.style.border = "1px solid green";
     	}
    	 
-    	send = false;
     	if (!send) {
             	event.preventDefault();
     	}
