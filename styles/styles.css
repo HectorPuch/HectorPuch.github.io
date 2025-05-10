@@ -78,6 +78,7 @@ main {
 	padding-bottom: 16px;
 	margin-top: 32px;
 	margin-bottom: 32px;
+	min-height: 100vh;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
 }
 
@@ -281,7 +282,6 @@ form a {
 	padding-top: 8px;
 	padding-bottom: 20px;
 	text-align: center;
-	min-height: 100vh;
 }
 
 /* MICRO-GAME */
@@ -289,7 +289,6 @@ form a {
 .main-micro-game {
 	padding-top: 8px;
 	padding-bottom: 32px;
-	min-height: 100vh;
 }
 
 #game-section {
@@ -333,7 +332,6 @@ form a {
 .main-contact {
 	padding-top: 8px;
 	padding-bottom: 32px;
-	min-height: 100vh;
 }
 
 #contact-section {
