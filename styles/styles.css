@@ -151,7 +151,6 @@ h2 {
 	width: 640px;
 	height: auto;
 	margin-top: 64px;
-	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #212023;
@@ -286,7 +285,6 @@ form a {
 
 .main-hobbies {
 	padding-top: 8px;
-	padding-bottom: 20px;
 	text-align: center;
 }
 
@@ -294,7 +292,6 @@ form a {
 
 .main-micro-game {
 	padding-top: 8px;
-	padding-bottom: 32px;
 }
 
 #game-section {
@@ -337,7 +334,6 @@ form a {
 
 .main-contact {
 	padding-top: 8px;
-	padding-bottom: 32px;
 }
 
 #contact-section {
