@@ -262,6 +262,12 @@ form a {
 	list-style: none;
 }
 
+#technologies-section h3 {
+	text-decoration: underline;
+	text-underline-offset: 12px;
+	text-decoration-color: #ff6500;
+}
+
 #languages-section ul {
 	padding-left: 0;
 	text-align: justify;
