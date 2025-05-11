@@ -71,11 +71,11 @@ hgroup p {
 }
 
 main {
-	max-width: 1000px;
+	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0 10px;
-	padding-bottom: 16px;
+	padding: 16px 64px;
+	padding-bottom: 48px;
 	margin-top: 32px;
 	margin-bottom: 32px;
 	min-height: 100vh;
@@ -284,14 +284,14 @@ form a {
 /* HOBBIES */
 
 .main-hobbies {
-	padding-top: 8px;
+	padding-top: 32px;
 	text-align: center;
 }
 
 /* MICRO-GAME */
 
 .main-micro-game {
-	padding-top: 8px;
+	padding-top: 32px;
 }
 
 #game-section {
@@ -333,7 +333,7 @@ form a {
 /* CONTACT */
 
 .main-contact {
-	padding-top: 8px;
+	padding-top: 32px;
 }
 
 #contact-section {
