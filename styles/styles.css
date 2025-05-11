@@ -285,42 +285,22 @@ form a {
 
 .main-hobbies {
 	padding-top: 32px;
-	text-align: center;
-}
-
-#books-section h2 {
 	text-align: justify;
 }
 
 #books-section p {
-	text-align: justify;
 	margin-bottom: 32px;
-}
-
-#music-section h2 {
-	text-align: justify;
 }
 
 #music-section p {
-	text-align: justify;
 	margin-bottom: 32px;
-}
-
-#movies-section h2 {
-	text-align: justify;
 }
 
 #movies-section p {
-	text-align: justify;
 	margin-bottom: 32px;
 }
 
-#sports-section h2 {
-	text-align: justify;
-}
-
 #sports-section p {
-	text-align: justify;
 	margin-bottom: 48px;
 }
 
@@ -329,6 +309,7 @@ form a {
 	width: auto;
 	border-radius: 16px;
 	border: 2px solid #ff6500;
+	margin-bottom: 16px;
 }
 
 .hiking {
@@ -336,7 +317,13 @@ form a {
 	width: auto;
 	border-radius: 16px;
 	border: 2px solid #ff6500;
-	margin-left: 32px;
+	margin-bottom: 16px;
+}
+
+.sports-images {
+	display: flex;
+	justify-content: center;
+	gap: 64px;
 }
 
 /* MICRO-GAME */
